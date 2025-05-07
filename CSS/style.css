@@ -70,26 +70,7 @@ body{
   padding: 2px;
 
 } 
-@media only screen and (max-width: 600px){
-  .top-bar{
-    display: block;
-    flex-direction: column;
-  }
-  .right{
-    display: flex;
-    flex-direction:column ;
-    justify-content: center;
-  }
-  a{
-    display: inline-block;
-  }
-  .main{
-    border: none;
-  }
-  .photos p{
-    width: 100px;
-  }
-}
+
 .second-floor{
   display: flex;
   justify-content: space-between;
@@ -204,22 +185,7 @@ button:hover{
   border: 1px white;
   margin-top: 50px;
 }
-@media only screen and (max-width: 600px){
-  
-  .second-floor{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-  }
-.text{
-  font-size: 36px;
-}
-.photos{
-  max-width: 400px ;
-}
 
-}
 
 
 .third-floor{
@@ -264,45 +230,7 @@ button:hover{
     width: 500px;
     gap:50px
   }
-  @media only screen and (max-width: 600px){
-    .floor-third{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      margin-top: 500px;
-    }
-    .special{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    }
-    .lorem1{
-      margin-right: 700px;
-      display: flex;
-      flex-direction: column;
-    }
-    .lorem2{
-      margin-right: 500px; 
-      display: flex;
-      flex-direction:column ;
-      
-   }
-   .lorem2 .teqsti{
-    width: 150px;
-   }
-   
-  }
-  @media only screen and (max-width: 600px){
-    .background{
-      display: flex;
-      justify-content: center;
-      align-self: center;
-      flex-direction: column;
-      margin-top: 500px;
-    }
-  }
+ 
 
   /* gridebi  */
 
@@ -396,29 +324,7 @@ button:hover{
   height: 100px;
  }
 
- @media only screen and (max-width: 600px){
  
-  .floor-five{
-    display: flex;
-    flex-direction: column;
-    margin-top: 800px;
-  }
-  .floor-five h2{
-    font-size: 60px;
-  }
-  .grid-container{
-    grid-template-areas:
-      "a a a"
-      "b b b"
-      "c c c"
-      "d d d"
-      "e e e";
-      justify-content: center;
-     
-  }
-  
-  
- }
 
 
  .six-floor{
@@ -482,25 +388,7 @@ button:hover{
   color: white;
 }
 
-@media only screen and (max-width: 600px){
-  .six-floor{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1000px;
-  }
-  .private-stuff{
-    display: flex;
-    flex-direction:column ;
-  }
-  .man-phone{
-    position: relative;
-    display: block;
-    width: 400px;
-    height: 250px;
-  }
-}
 
-/* last section */
 
 .last-floor{
   margin-top: 150px;
@@ -613,6 +501,103 @@ button:hover{
     
     
   }
+  .six-floor{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1000px;
+  }
+  .private-stuff{
+    display: flex;
+    flex-direction:column ;
+  }
+  .man-phone{
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 250px;
+  }
+  .floor-five{
+    display: flex;
+    flex-direction: column;
+    margin-top: 800px;
+  }
+  .floor-five h2{
+    font-size: 60px;
+  }
+  .grid-container{
+    grid-template-areas:
+      "a a a a a a"
+      "b b b b b b"
+      "c c c c c c"
+      "d d d d d d"
+      "e e e e e e";
+      justify-content: center;
+     
+  }
+  .background{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 500px;
+  }
+  .floor-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 500px;
+  }
+  .special{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .lorem1{
+    margin-right: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+  .lorem2{
+    margin-right: 500px; 
+    display: flex;
+    flex-direction:column ;
+    
+ }
+ .lorem2 .teqsti{
+  width: 150px;
+ }
+ .second-floor{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.text{
+font-size: 36px;
+}
+.photos{
+max-width: 400px ;
+}
+.top-bar{
+  display: block;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+}
+a{
+  display: inline-block;
+}
+.main{
+  border: none;
+}
+.photos p{
+  width: 100px;
+}
  }
   
 
